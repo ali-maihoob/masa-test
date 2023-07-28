@@ -1,4 +1,4 @@
-# project-test
+# Masa Test Project
 
 ## Project setup
 ```

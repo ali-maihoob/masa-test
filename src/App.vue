@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-3xl font-bold underline">
+        <SliderComponent></SliderComponent>
+    </h1>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import SliderComponent from "@/components/SliderComponent.vue";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      SliderComponent
   }
 }
 </script>
@@ -21,6 +21,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
